@@ -12,9 +12,8 @@ const ulEl = document.getElementById('list');
 const btnEl = document.querySelector('button');
 console.log(ulEl);
 
-//call the init function to 
+//call the init function to generate the email list
 init();
-
 
 //add event listener to the button 
 btnEl.addEventListener('click', function () {
@@ -22,7 +21,7 @@ btnEl.addEventListener('click', function () {
 })
 
 /**
- * Function that 
+ * Function that generate and show the email list
  */
 function init() {
 
